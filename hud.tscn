@@ -1,0 +1,14 @@
+[gd_scene format=2]
+
+[node name="hud" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+margin_right = 1025.0
+margin_bottom = 84.0
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Timer" type="Timer" parent="."]

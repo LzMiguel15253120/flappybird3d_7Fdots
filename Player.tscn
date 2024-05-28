@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="BoxShape" id=1]
+
+[node name="Player" type="RigidBody"]
+
+[node name="Camera" type="Camera" parent="."]
+current = true
+
+[node name="CollisionShape" type="CollisionShape" parent="."]
+transform = Transform( 0.6, 0, 0, 0, 0.6, 0, 0, 0, 0.6, 0, 0, 0 )
+shape = SubResource( 1 )
+
+[node name="batendoasa" type="AudioStreamPlayer3D" parent="."]
+
+[node name="tema" type="AudioStreamPlayer3D" parent="."]
