@@ -18,6 +18,10 @@ _global_script_class_icons={
 config/name="Flappy bird 3D"
 config/icon="res://icon.png"
 
+[debug]
+
+settings/fps/force_fps=60
+
 [input]
 
 voa={
